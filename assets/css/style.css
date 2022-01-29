@@ -1552,7 +1552,7 @@ textarea:focus {
 #scrollUp {
   width: 50px;
   height: 50px;
-  background-color: #00a651;
+  background-color: #8f1876;
   color: #fff;
   right: 20px;
   bottom: 60px;
@@ -1597,7 +1597,7 @@ textarea:focus {
 }
 
 .default-btn {
-  background-color: #00a651;
+  background-color: #8f1876;
   color: #fff;
   display: inline-block;
   font-size: 16px;
@@ -1612,7 +1612,7 @@ textarea:focus {
   border-radius: 50px;
 }
 .default-btn:hover {
-  background-color: #333;
+  background-color: #334;
   color: #fff;
 }
 @media only screen and (max-width: 767px) {
@@ -1788,7 +1788,7 @@ textarea:focus {
 }
 
 .logo {
-  margin-top: 31px;
+  margin-top: 25px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .logo {
@@ -1897,7 +1897,8 @@ textarea:focus {
   margin-left: 0px;
 }
 .main-menu nav ul li:hover a {
-  color: #00a651;
+  color: #8f1876;
+  font-weight: 500;
 }
 .main-menu nav ul li a {
   font-size: 14px;
@@ -1907,7 +1908,7 @@ textarea:focus {
   line-height: 87px;
 }
 .main-menu nav ul li a i {
-  color: #00a651;
+  color: #8f1876;
   font-size: 12px;
   margin-left: 9px;
 }
@@ -1977,10 +1978,10 @@ textarea:focus {
   padding-top: 0px;
 }
 .main-menu nav ul li.mega-menu-position ul.mega-menu > li ul li a:hover {
-  color: #00a651;
+  color: #8f1876;
 }
 .main-menu nav ul li.mega-menu-position ul.mega-menu > li ul li a::before {
-  background: #00a651 none repeat scroll 0 0;
+  background: #8f1876 none repeat scroll 0 0;
   border-radius: 50%;
   content: "";
   height: 7px;
@@ -2048,7 +2049,7 @@ textarea:focus {
   position: absolute;
   top: -8px;
   right: -11px;
-  background-color: #00a651;
+  background-color: #8f1876;
   color: #fff;
   display: inline-block;
   width: 19px;
@@ -2165,7 +2166,7 @@ textarea:focus {
   display: block;
 }
 .cart-wrap:hover > button {
-  color: #00a651;
+  color: #8f1876;
 }
 
 .header-search {
@@ -2173,7 +2174,7 @@ textarea:focus {
   margin-left: 21px;
 }
 .header-search:hover > button {
-  color: #00a651;
+  color: #8f1876;
 }
 .header-search button {
   background: transparent;
@@ -2212,7 +2213,7 @@ textarea:focus {
   padding: 5px 14px 5px 14px;
 }
 .header-search .search-content form button:hover {
-  color: #00a651;
+  color: #8f1876;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2454,6 +2455,7 @@ textarea:focus {
   animation-delay: 1.6s;
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
+  border-radius: 50%;
 }
 
 .owl-item.active .slider-animated-2.slider-single-img2 img {
@@ -2836,15 +2838,15 @@ textarea:focus {
 }
 
 .choose-bg-light-blue {
-  background-color: #48a7d4;
+  background-color: #8f1876;
 }
 
 .choose-bg-yellow {
-  background-color: #fdc735;
+  background-color: #307ad5;
 }
 
 .choose-bg-blue {
-  background-color: #307ad5;
+  background-color: #a31297;
 }
 
 .choose-bg-green {
@@ -3011,7 +3013,7 @@ textarea:focus {
   }
 }
 .section-title h2 span {
-  color: #00a651;
+  color: #8f1876;
   font-weight: 400;
 }
 .section-title p {
@@ -3048,7 +3050,7 @@ textarea:focus {
 }
 
 .section-title-green p {
-  color: #00a651;
+  color: #8f1876;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3615,6 +3617,12 @@ textarea:focus {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
 .single-course .course-img span {
   position: absolute;
   top: 0;

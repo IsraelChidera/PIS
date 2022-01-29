@@ -11,12 +11,12 @@
     $('.slider-active').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         item: 1,
-        dots: false,
+        dots: true,
         responsive: {
             0: {
                 items: 1
@@ -35,7 +35,7 @@
     $('.slider-active-2').owlCarousel({
         loop: true,
         nav: true,
-        autoplay: false,
+        autoplay: true,
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
         autoplayTimeout: 5000,
         animateOut: 'fadeOut',
