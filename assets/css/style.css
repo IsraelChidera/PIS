@@ -1611,6 +1611,12 @@ textarea:focus {
   letter-spacing: 0.5px;
   border-radius: 50px;
 }
+
+.link-def {
+  background-color: #334;
+  margin-top: 2rem;
+}
+
 .default-btn:hover {
   background-color: #334;
   color: #fff;
@@ -7606,6 +7612,12 @@ textarea:focus {
 
 .related-slider-active.related-blog-slide .slick-list {
   padding-bottom: 0px;
+}
+
+.new-pd {
+  padding: 1rem;
+  background-color: #efefef;
+  margin: 2rem;
 }
 
 .blog-comment .blog-comment-btn a {
