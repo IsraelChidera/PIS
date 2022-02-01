@@ -3298,6 +3298,7 @@ textarea:focus {
 .single-about-chose-us .about-choose-content p {
   line-height: 25px;
   margin: 0;
+  font-weight: 600;
 }
 .single-about-chose-us:hover .about-choose-img img {
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running tada;
@@ -3530,7 +3531,7 @@ textarea:focus {
 }
 
 .breadcrumb-bottom {
-  background-color: #00a651;
+  background-color: #8f1876;
   padding: 14px 0 12px;
 }
 .breadcrumb-bottom ul li {
@@ -3570,7 +3571,7 @@ textarea:focus {
 }
 
 .breadcrumb-top.breadcrumb-overly-2.default-overlay:before {
-  background-color: #003218;
+  background-color: #334;
   opacity: 0.76;
 }
 
@@ -5019,9 +5020,11 @@ textarea:focus {
   display: inline-block;
   line-height: 1;
   padding: 6px 10px;
+  display: none;
 }
 .single-blog .blog-content-wrap .blog-content {
   padding: 35px 20px 24px;
+  display: none;
 }
 @media only screen and (max-width: 767px) {
   .single-blog .blog-content-wrap .blog-content {
@@ -5081,6 +5084,7 @@ textarea:focus {
 .single-blog .blog-content-wrap .blog-date {
   background-color: #00a651;
   padding: 6px 20px 8px;
+  display: none;
 }
 .single-blog .blog-content-wrap .blog-date a {
   line-height: 1;
@@ -5196,8 +5200,8 @@ textarea:focus {
 
 /*--------- 12. footer area ---------*/
 .footer-top.default-overlay:before {
-  background-color: #003502;
-  opacity: 0.89;
+  background-color: #8f1876;
+  opacity: 0.69;
 }
 
 @media only screen and (max-width: 767px) {
@@ -5308,7 +5312,7 @@ textarea:focus {
   width: auto;
   font-weight: bold;
   text-transform: uppercase;
-  color: #00a651;
+  color: #8f1876;
   height: auto;
   padding: 9px 40px;
   margin-top: 20px;
@@ -5316,8 +5320,12 @@ textarea:focus {
   letter-spacing: 0.5px;
 }
 .footer-widget .subscribe-style .subscribe-form form .clear input:hover {
-  background-color: #00a651;
+  background-color: #334;
   color: #fff;
+}
+
+.course-area {
+  background: #efefef;
 }
 
 .footer-about,
@@ -5348,7 +5356,7 @@ textarea:focus {
 }
 
 .footer-bottom {
-  background-color: #00a651;
+  background-color: #334;
 }
 
 .copyright p {
@@ -6485,12 +6493,7 @@ textarea:focus {
   position: relative;
 }
 .sidebar-title h4 {
-  color: #00a651;
-  font-size: 18px;
-  margin: 0;
-  border-bottom: 1px solid #00a651;
-  padding-bottom: 17px;
-  line-height: 1;
+  display: none;
 }
 
 .sidebar-search form {
@@ -6526,9 +6529,10 @@ textarea:focus {
 .sidebar-about p {
   margin: 0;
   line-height: 23px;
+  display: none;
 }
 .sidebar-about img {
-  margin: 26px 0 29px;
+  display: none;
 }
 .sidebar-about .sidebar-social ul li {
   display: inline-block;
@@ -6574,11 +6578,21 @@ textarea:focus {
 }
 
 .single-recent-post {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 27px;
+  display: none;
 }
+
+.category-list {
+  display: none;
+}
+
+.sidebar-recent-course {
+  display: none;
+}
+
+.sidebar-tag {
+  display: none;
+}
+
 .single-recent-post:last-child {
   margin-bottom: 0px;
 }
@@ -7768,11 +7782,12 @@ textarea:focus {
 
 /*--------- 20. Contact page ---------*/
 .contact-map {
-  border: 10px solid #00a651;
+  border: 10px solid #8f1876;
   border-right: none;
 }
 .contact-map #map {
   height: 685px;
+  background: url('../img/images/sliders1.png');
 }
 @media only screen and (max-width: 767px) {
   .contact-map #map {
@@ -7807,7 +7822,7 @@ textarea:focus {
 }
 .contact-form .contact-title h2 span {
   font-weight: 400;
-  color: #00a651;
+  color: #8f1876;
 }
 .contact-form .contact-title p {
   font-size: 16px;
@@ -7835,8 +7850,8 @@ textarea:focus {
   border: none;
   font-size: 16px;
   font-weight: bold;
-  color: #00a651;
-  background-color: #fff;
+  color: #fff;
+  background-color: #8f1876;
   line-height: 1;
   display: inline-block;
   -webkit-box-shadow: 0px 6px 12px 0.8px rgba(14, 14, 14, 0.26);
@@ -7852,7 +7867,7 @@ textarea:focus {
 }
 .contact-form form button:hover {
   color: #fff;
-  background-color: #00a651;
+  background-color: #334;
 }
 .contact-form p.form-messege {
   margin-top: 10px;
@@ -7881,7 +7896,6 @@ textarea:focus {
   line-height: 64px;
   text-align: center;
   border-radius: 100%;
-  background-color: #005b2c;
   position: relative;
   display: inline-block;
   z-index: 9;
@@ -7893,7 +7907,7 @@ textarea:focus {
   left: -3px;
   top: -24px;
   content: "";
-  background-color: #00a651;
+  background-color: #8f1876;
   width: 70px;
   height: 70px;
   border-radius: 100%;
@@ -9217,4 +9231,8 @@ h3.cart-page-title {
 .login-register-wrapper .login-form-container .login-register-form form .button-box button:hover {
   background-color: #333;
   color: #fff;
+}
+
+.course {
+  padding-top: 2rem;
 }
